@@ -1,1 +1,1 @@
-https://codehugh.github.io/rsschool-cv/cv
+https://codehugh.github.io/rsschool-cv/
