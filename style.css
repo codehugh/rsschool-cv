@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+   
+}
+
+.header, .footer {
+    background-color: rgb(221, 219, 219);
+}
+
+.container {
+    max-width: 1280px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 5px ;
+}
+
+.line {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lineLink {
+    list-style-type: none;
+    padding: 0 10px;
+    font-size: 25px;
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.avatarName {
+    width: 40%;
+    margin: auto;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.contentName {
+    width: 38%;
+}
+
+.titleName {
+    font-size: 40px;
+    margin-bottom: 50px;
+    justify-self: flex-start;
+    color: #0e0e0e;
+}
+
+.subtitleName {
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+.content {
+    display: flex;
+}
+
+.column {
+    width: 40%;
+}
+
+.title {
+    font-size: 28px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font-weight: 5px;
+}
+
+.contactsList {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.contactsLink {
+    list-style-type: none;
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.ability {
+    list-style-type: none;
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-bottom: 20px;
+}
+
+.languages {
+    margin-top: 30px;
+}
+
+.lang {
+    list-style-type: none;
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-bottom: 20px;
+}
+
+.contentMain {
+    width: 60%;
+}
+
+.aboutMe {
+    margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.examplecode pre {
+    display: flex;
+    position: absolute;
+    left: 730px;
+    font-size: 20px;
+	line-height: 20px;
+}
+
+.education {
+    margin-top: 160px;
+}
+
+.education p {
+    display: block;
+    font-size: 18px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.containerFooter {
+    padding: 0px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+
